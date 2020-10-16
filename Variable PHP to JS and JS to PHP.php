@@ -1,4 +1,4 @@
-<!-- php to js -->
+<!-- PHP to JS -->
 <?php
 $variablePHP = "From PHP to JS."; // Variable PHP
 echo "1. $variablePHP"; // Echo variable PHP
@@ -8,12 +8,7 @@ echo "1. $variablePHP"; // Echo variable PHP
     console.log(variableJS); // Output JS variable to console
 </script>
 
-<!-- Space -->
-<?php echo "<br/>------<br/>"; ?>
-<script>console.log("-----");</script>
-<!-- Space -->
-
-<!-- js to php  -->
+<!-- JS to PHP  -->
 <script>
     let tekst = "From JS to PHP"; // Variable JS
     console.log(tekst); // Output JS variable to console
