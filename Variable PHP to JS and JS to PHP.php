@@ -17,3 +17,13 @@ echo "1. $variablePHP"; // Echo variable PHP
 $tekstphp = "<script>document.write(tekst);</script>"; // Variable JS to PHP
 echo "2. $tekstphp"; // Echo variable PHP
 ?>
+
+<!-- Console for PHP -->
+function _c($var)
+{
+?>
+    <script>
+        console.log(<?= json_encode($var) ?>)
+    </script>
+<?php
+}
